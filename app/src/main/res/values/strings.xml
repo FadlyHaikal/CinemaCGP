@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Cinema CGP</string>
+    <string name="title_home">Home</string>
+    <string name="title_location">Location</string>
+    <string name="title_reservation">Reservation</string>
+    <string name="title_activity_cgp_alpha_maps">CgpAlphaMapsActivity</string>
+    <string name="title_activity_cgp_beta_maps">CgpBetaMapsActivity</string>
+</resources>

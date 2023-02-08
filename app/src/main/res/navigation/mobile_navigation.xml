@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.cinemacgp.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_location"
+        android:name="com.example.cinemacgp.ui.cgp_location.CgpLocationFragments"
+        android:label="@string/title_location"
+        tools:layout="@layout/fragment_cgp_location" />
+
+    <fragment
+        android:id="@+id/navigation_reservation"
+        android:name="com.example.cinemacgp.ui.reservation.ReservationFragment"
+        android:label="@string/title_reservation"
+        tools:layout="@layout/fragment_reservation" />
+</navigation>
