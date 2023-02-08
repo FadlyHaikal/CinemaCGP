@@ -34,7 +34,7 @@
         -->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="YOUR_API_KEY" />
+            android:value="AIzaSyC6HGyAIaMmqUvfKfn2a0gztTyvqx2Wz9o" />
 
         <activity
             android:name=".CgpBetaMapsActivity"
